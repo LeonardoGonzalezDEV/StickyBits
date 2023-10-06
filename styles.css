@@ -23,6 +23,7 @@ main {
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 .notes-container {
@@ -145,6 +146,33 @@ main {
     bottom: 0;
     width: 100%; /* Ancho completo */
 }
+/* Estilo para el botón de compartir */
+.share-note {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilo para el icono en el botón de compartir (puedes reemplazar 'your-icon-class' con la clase del icono que elijas) */
+.share-note i {
+    font-family: 'Font Awesome', sans-serif; /* Asegúrate de incluir la fuente de iconos */
+    /* Reemplaza 'your-icon-class' con la clase del icono de tu elección */
+    content: '\f064';
+}
+
+/* Estilo para el toast */
+.toast {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 20px;
+}
+
 
 
 
